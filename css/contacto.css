@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+/*@media (min-width: 480px)
+@media (min-width: 769px)
+@media(min-widt: 1024px)*/
+
+    /*INICIO DEL HEADER*/
+    .header{
+        background-color: #EAE8E1;
+        
+    }
+
+    .titulo-header{
+        font-family: 'Dancing Script', cursive;
+        color: #a57c5b;
+        font-size: 50px;
+    }
+
+    /*FIN DEL HEADER*/
+
+    /*-----------------------------------------------------------
+    -------------------------------------------------------------
+    -------------------------------------------------------------
+    -----------------------------------------------------------*/
+
+    /*INCIO DEL NAV*/
+    .nav{
+        background-color: #d6c9bca2;
+        font-family: 'Lato', sans-serif;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .buscar{
+        margin-right: 5px;
+    }
+
+    .submenu {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .icons {
+        margin: 2px;
+    }
+    /*FIN DEL NAV*/
+
+    /*-----------------------------------------------------------
+    -------------------------------------------------------------
+    -------------------------------------------------------------
+    -----------------------------------------------------------*/
+
+    /*INICIO DEL MAIN DE INDEX*/
+    .main-index{
+        background-color: #e9b78fb4;
+        padding: 20px;
+    }
+
+    .img{
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+    }
+
+    .contenedor{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 35px;
+    }
+
+    .comentarios {
+        box-shadow: rgba(0, 0, 0, 0.16) 3px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    }
+
+    .titulo-contenedor {
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .comentario{
+        font-family:'Lato', sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .autor{
+        color: rgb(136, 136, 136);
+        font-family:'Lato', sans-serif;
+        text-align: end;
+        font-size: 2px;
+    }
+        /*FIN DEL MAIN DE INDEX*/
+
+    /*-----------------------------------------------------------
+    -----------------------------------------------------------*/
+        /*INICIO DEL MAIN DE CONTACTO*/
+        .main-contacto{
+            background-color: #d8d27bb9;
+            padding-bottom: 10px;
+        }
+    
+        .contenedor-mapa{
+            display: flex;
+            flex-direction: column;
+            width: 35%;
+            margin: auto;
+            padding-top: 20px;
+        }
+    
+        .mapa { 
+            position: relative;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            padding-bottom: 70%;
+            padding-top: 0px;
+            height: 0;
+            overflow: hidden;
+            border: 5px solid #8a7b70b4;
+            border-radius: 10px;
+        }
+    
+        .mapa iframe{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    
+        .consignas{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            font-family:'Cormorant Garamond', serif;
+            text-align: center;
+            padding-right: 10px;
+        }
+    
+        .form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 40px;
+            padding-right: 10px;
+        }
+    
+        .titulo-formulario {
+            font-family:'Cormorant Garamond', serif;
+            color: rgb(121, 79, 79);
+            text-align: center;
+        }
+    
+        .consigna-formulario {
+            font-family: 'Lato', serif;
+        }
+    
+        .huesp, .env{
+            display: flex;
+            justify-content: center;
+        }
+    
+        .asun, .msj{
+            width: 30%;
+        }
+    
+        .nom, .huesp, .prov, .tel, .email, .asun, .msj, .env {
+            padding: 5px;
+        }
+        /*FIN DEL MAIN DE CONTACTO*/
+    
+        /*-----------------------------------------------------------
+        -------------------------------------------------------------
+        -------------------------------------------------------------
+        -----------------------------------------------------------*/
+    
+        /*INICIO DEL FOOTER*/
+        .footer{
+            background-color: rgb(236, 226, 226);
+            text-align: center;
+            font-family: 'Lato', sans-serif;
+            font-style: bold;
+            height: 10vh;
+        }
+    
+        .social-copyright{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+    
+        .info-footer{
+            padding-top: 15px;
+            padding-right: 10px;
+        }
+    
+        .data{
+            text-decoration: none;
+            color: rgb(177, 143, 99);
+        }
+        .datos-de-contacto{
+            display: flex;
+            justify-content: space-evenly;
+        }
+    
+        .copyright {
+            display: flex;
+            justify-content: space-around;
+            align-items: stretch;
+        }
+        /*FIN DEL FOOTER*/
+    
+    /*-----------------------------------------------------------
+    -------------------------------------------------------------
+    -------------------------------------------------------------
+    -----------------------------------------------------------*/

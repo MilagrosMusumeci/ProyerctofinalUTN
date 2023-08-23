@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+    /*INICIO DEL HEADER*/
+    .header{
+        background-color: #EAE8E1;
+    }
+
+    .titulo-header{
+        font-family: 'Dancing Script', cursive;
+        color: #a57c5b;
+        font-size: 50px;
+    }
+
+    /*FIN DEL HEADER*/
+
+    /*-----------------------------------------------------------
+    -------------------------------------------------------------
+    -------------------------------------------------------------
+    -----------------------------------------------------------*/
+
+    /*INCIO DEL NAV*/
+    .nav{
+        background-color: #d6c9bca2;
+        font-family: 'Lato', sans-serif;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .buscar{
+        margin-right: 5px;
+    }
+
+    .submenu {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .icons {
+        margin: 2px;
+    }
+    /*FIN DEL NAV*/
+
+    /*INICIO DEL MAIN*/
+    
+    .api{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    main{
+        display: grid;
+        grid-template-columns: 20% 20% 20% 20% 20%;
+    }
+
+    .contenedor-de-imagenes{
+        width: 100%;
+        background-color: #f5df8e;
+    }
+    article{
+        padding: 5px;
+        box-shadow: 0px 0px 1px;
+    }
+    
+    .fila{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 20px;
+        
+    }
+    
+    /*FIN DEL MAIN*/
+
+
+    /*-----------------------------------------------------------
+    -------------------------------------------------------------
+    -------------------------------------------------------------
+    -----------------------------------------------------------*/
+
+    /*INICIO DEL FOOTER*/
+    .footer{
+        background-color: rgb(236, 226, 226);
+        text-align: center;
+        font-family: 'Lato', sans-serif;
+        font-style: bold;
+        height: 10vh;
+    }
+
+    .social-copyright{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .info-footer{
+        padding-top: 15px;
+        padding-right: 10px;
+    }
+
+    .data{
+        text-decoration: none;
+        color: rgb(177, 143, 99);
+    }
+    .datos-de-contacto{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .copyright {
+        display: flex;
+        justify-content: space-around;
+        align-items: stretch;
+    }
+    /*FIN DEL FOOTER*/
+
+/*-----------------------------------------------------------
+-------------------------------------------------------------
+-------------------------------------------------------------
+-----------------------------------------------------------*/
